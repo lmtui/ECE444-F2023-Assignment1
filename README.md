@@ -5,3 +5,5 @@
 
 ![image](https://github.com/lmtui/ECE444-F2023-Assignment1/assets/99363546/7b67b152-c1cb-4c7f-a4cb-08b84ccfe7af)
 
+![image](https://github.com/lmtui/ECE444-F2023-Assignment1/assets/99363546/295de307-c3f5-43e0-bffa-348ac23fdb43)
+
