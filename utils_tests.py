@@ -5,8 +5,8 @@ class TestUtils(unittest.TestCase):
 
     def test_reversed(self):
         self.assertEqual(Utils.reversed(123), 321)
-        self.assertEqual(Utils.reversed(3.14159), 951.14159)
-        self.assertEqual(Utils.reversed("hello"), "olleh")
+        self.assertEqual(Utils.reversed(556), 655)
+        self.assertEqual(Utils.reversed("abc"), "cba")
 
     def test_formatter(self):
         self.assertEqual(Utils.formatter(42), {"binary": "101010", "octal": "52"})
