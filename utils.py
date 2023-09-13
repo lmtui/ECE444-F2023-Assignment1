@@ -1,13 +1,9 @@
 class Utils:
-    @staticmethod
     def reversed(number):
-        return int(str(number)[::-1])
+        str(number)[::-1]
+        return int(number)
 
-    @staticmethod
     def formatter(number):
-        binary = bin(number)[2:]
-        octal = oct(number)[2:]
-        return {
-            "binary": binary,
-            "octal": octal
-        }
+        binary = int (bin(number)[2:])
+        octal = int (oct(number)[2:])
+        return binary, octal
