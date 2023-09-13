@@ -4,6 +4,6 @@ class Utils:
         return int(number)
 
     def formatter(number):
-        binary = int (bin(number)[2:])
-        octal = int (oct(number)[2:])
+        binary =  (bin(number)[2:])
+        octal =  (oct(number)[2:])
         return binary, octal
