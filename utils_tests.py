@@ -7,15 +7,14 @@ class Test_Utils(unittest.TestCase):
         self.assertEqual(Utils.reversed(123), 321)
         self.assertEqual(Utils.reversed(556), 655)
         with self.assertRaises(TypeError):
-            Utils.reversed("abc")  # Check for TypeError when passing a string
+            Utils.reversed("abc")  
 
     def test_formatter(self):
         self.assertEqual(Utils.formatter(42), {"binary": "101010", "octal": "0o52"})
         self.assertEqual(Utils.formatter(7), {"binary": "111", "octal": "0o7"})
         with self.assertRaises(TypeError):
-            Utils.formatter(7.5)  # Check for TypeError when passing a float
+            Utils.formatter(7.5)  
         with self.assertRaises(TypeError):
-            Utils.formatter("abc")  # Check for TypeError when passing a string
-
+            Utils.formatter("abc")  
 if __name__ == '__main__':
     unittest.main()

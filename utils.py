@@ -5,8 +5,8 @@ class Utils:
             raise TypeError("Input must be an integer, not a float")
         num_str = str(num)
         reversed_str = num_str[::-1]
-        return int(reversed_str)  # Convert the reversed string back to an integer
-
+        return int(reversed_str)  
+    
     @staticmethod
     def formatter(num):
         if not isinstance(num, int):
