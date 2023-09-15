@@ -7,6 +7,7 @@ First Try:
 Second try (added check for current branch)
 ![image](https://github.com/lmtui/ECE444-F2023-Assignment1/assets/99363546/e57c5b48-89ee-4474-8797-4500d2073f63)
 
+
 # Activity 3
 ![image](https://github.com/lmtui/ECE444-F2023-Assignment1/assets/99363546/7b67b152-c1cb-4c7f-a4cb-08b84ccfe7af)
 # Activity 4
